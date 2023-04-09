@@ -1,0 +1,73 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --cor001: hsl(216, 57%, 11%); /*background color*/
+    --cor002: hsl(214, 50%, 16%); /*container color*/
+    --cor003: hsl(180, 100%, 99%); /*title color and Jules color*/
+    --cor004: hsl(217, 22%, 46%); /*text color*/
+    --cor005: hsl(185, 84%, 62%); /*eth color*/
+    --cor006: hsl(215, 35%, 70%); /*day color*/
+    --cor007: hsl(214, 31%, 26%); /*line color*/
+    --cor008: hsl(217, 33%, 68%); /*creator color*/
+
+    --font01: 'Outfit', sans-serif;
+    
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vh;
+    background-color: var(--cor001); 
+    font-family: var(--font01)
+}
+
+.image {
+    width: 277px;
+    height: 276px;;
+}
+
+
+.image img {
+   
+}
+
+.container {
+    display: flex;
+    
+    width: 363px;
+    height: 542px;
+    border-radius: 20px;
+    background-color: var(--cor002);
+}
+
+.content {
+    align-items: center;
+    justify-content: center;
+}
+
+
+.category {
+    color: var(--cor003);
+}
+
+.text {
+    color: var(--cor004);
+}
+
+.price {
+    color: var(--cor005);
+
+}
+
+.time {
+    color: var(--cor006);
+}
